@@ -1,5 +1,7 @@
 #  a simple async commandline client to list items from etcd
 
+etcd is a key-value store for the most critical data of distributed systems.
+
 1. `async_client.py` reads all value corresponding to a key
 2. `read_prefixkeys_etcd.py` writes some key value pairs to etcd and reads the keys with provided prefix 
 
